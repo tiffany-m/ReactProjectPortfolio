@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Open Sans", sans-serif; 
+  background: url(/assets/images/bg.jpg);
+  background-size: cover; }
+
+.boxStyle {
+   background-color: rgba(255, 255, 255, 0.829);
+   border: solid #82e7df;}
+
+hr {
+  border: 2px solid #82e7df;;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.imgBorder {
+  border-bottom: 2px solid #000000;}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.accordionHeader {
+  background-color: #8afaa28e;}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1{
+  font-size: 70px;
 }
+h1, h2, h3 {
+  font-family: "Lobster", cursive; }
 
-.App-link {
-  color: #61dafb;
-}
+header h2 {
+  font-size: 20px;
+  color: #000000; }
+ 
+.site-footer {
+  background-image: linear-gradient(#82e7df, white);
+  padding: 15px;
+  position: absolute;
+  width: 100%; }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.jumbotron {
+  margin: 0;
+  padding: 15px;
+  background-image: linear-gradient(to right,  #b189fa, #fa89d8, #f8c58b, #f4f682, #8afaa3, #82e7df, #82b6e7); 
+  color: black; }
+
+.row-content {
+  padding: 18px;
+  min-height: 200px; }
+
+.COVID-row-content {
+    padding: 18px; }
+
+.navbar {
+  background-color: #82e7df; }
+
+.carousel-caption {
+  background-color: #c0bebedc;
+  color: black;
+  border: solid #000000;
+  border-width: thin;}
+
+#carouselButton1, #carouselButton2 {
+  position: absolute;
+  right: 0;
+  bottom: 0; }
+
+#map {
+  border: 8px solid #82e7df;
 }
+  
+
