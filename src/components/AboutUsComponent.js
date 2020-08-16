@@ -18,9 +18,9 @@ function AboutUs(props) {
                     <p><strong>Treat yourself! </strong>
                         People don't normally think of cakes as being both healthy and tasty - we can change your mind!  We bake everything from scratch with fresh ingredients (local when possible).  Our products are vegan (dairy, gelatin and egg free), gluten free, peanut free, soy free and we avoid using processed sugars and perservatives.  The flours we use include garbanzo bean/chickpea flour, lentil flour and brown rice flour.  These wheat alternatives provide more fiber and protein so you can feel good about eating our treats!
                     </p>
-                    <p><strong>Fresh Fresh Baby! </strong>
+                    <div><strong>Fresh Fresh Baby! </strong>
                         We make small batches of our <strong>Daily Treats</strong> everyday to make sure they are always fresh.  Beacuse of this you should call ahead of time to order large quanities.  In order to be able to do this, we also have a limited menu.
-                    </p>
+                    </div>
                 </div>
             </div>
             <br />

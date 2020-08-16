@@ -1,4 +1,5 @@
 import React from 'react';
+import CarouselRecent from './CarouselRecentComponent';
 import CarouselDaily from './CarouselDailyComponent';
 import { Link } from 'react-router-dom';
 
@@ -31,6 +32,16 @@ function Home(props) {
         </div>
         <div className="col-sm-3 mt-3 m-sm-auto">
             <img className="img-thumbnail" src="/assets/images/howWeRoll2.jpg" width="250" alt="Icing Bags" />
+        </div>
+    </div>
+<br />
+    <div className="row row-content boxStyle">
+        <div className="col">
+            <CarouselDaily />
+        </div>
+            <br />
+        <div className="col">
+            <CarouselRecent />
         </div>
     </div>
 <br />

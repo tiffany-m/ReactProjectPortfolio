@@ -55,13 +55,8 @@ header h2 {
   border: solid #000000;
   border-width: thin;}
 
-#carouselButton1, #carouselButton2 {
-  position: absolute;
-  right: 0;
-  bottom: 0; }
-
 #map {
-  border: 8px solid #82e7df;
+  border: solid #82e7df;
 }
   
 

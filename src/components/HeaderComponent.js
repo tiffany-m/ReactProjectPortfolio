@@ -24,7 +24,9 @@ class Header extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="d-none d-sm-block col-sm-3 col-md-2 align-self-center">
+                            <NavLink className="nav-link" to="/home">
                                 <img src="/assets/images/logo.png" className="img-fluid" width="125px"/>
+                            </NavLink>
                             </div>
                             <div className="col align-self-center">
                                 <h1>Edible Delights</h1>

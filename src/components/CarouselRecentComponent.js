@@ -1,26 +1,35 @@
 import React, { useState } from 'react';
 import { Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption } from 'reactstrap';
-import renderHTML from 'react-render-html';
 
 const items = [
     {
-      src: '/assets/images/donuts.jpg',
-      altText: 'Daily Treats',
-      caption: renderHTML('<strong>Donuts: </strong>$1.25 each or $12/dozen')
+      src: '/assets/images/recent1.jpg',
+      altText: 'Recent Orders',
+      caption: 'Autumn',
     },
     {
-      src: '/assets/images/cupcakes.jpg',
-      altText: 'Daily Treats',
-      caption: renderHTML('<strong>Cupcakes: </strong>$3 each or $30/dozen')
+      src: '/assets/images/recent2.jpg',
+      altText: 'Recent Orders',
+      caption: 'Inspired by picture frame.'
     },
     {
-      src: '/assets/images/cookies.jpg',
-      altText: 'Daily Treats',
-      caption: renderHTML('<strong>Cookies: </strong>$16 per pound')
+      src: '/assets/images/recent3.jpg',
+      altText: 'Recent Orders',
+      caption: 'Little Red Riding Hood'
+    },
+    {
+      src: '/assets/images/recent4.jpg',
+      altText: 'Recent Orders',
+      caption: 'Blake from RWBY.'
+    },
+    {
+      src: '/assets/images/recent5.jpg',
+      altText: 'Recent Orders',
+      caption: 'Aaahh!  Real Monsters'
     }
   ];
   
-  const CarouselDaily = (props) => {
+  const CarouselRecent = (props) => {
     const [activeIndex, setActiveIndex] = useState(0);
     const [animating, setAnimating] = useState(false);
   
@@ -68,4 +77,4 @@ const items = [
     );
   }
   
-  export default CarouselDaily;
+  export default CarouselRecent;

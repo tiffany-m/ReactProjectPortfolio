@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactForm from './ContactFormComponent';
 import Iframe from 'react-iframe';
 
 function Contact(props) {
@@ -36,51 +37,21 @@ function Contact(props) {
                 </div>
             </div>
         <br />
-            <div className="col d-flex justify-content-center">
+            <div className="row boxStyle border-bottom-0">
+                <div className="col">
+                    <h2 className="text-center pt-3">Directions</h2><hr />
+                </div>
+            </div>
+            <div className="row row-content d-flex justify-content-center border-top-0 boxStyle">
                 <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12231.083241592713!2d-75.36253930909427!3d39.968876615788254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6ea63b26c5429%3A0xb2ea7a5c8d00aa83!2sBroomall%2C%20PA%2019008!5e0!3m2!1sen!2sus!4v1594585163259!5m2!1sen!2sus"
                     width="1070px"
                     height="300px"
                     id="map"
-                    className="myClassname"
                     display="initial"
                     position="relative" />
             </div>
         <br />
-            <div className="row row-content boxStyle">
-                <div className="col-md-10">
-                    <h2>Send us your Feedback</h2>
-                    <p><strong>All</strong> feedback is appreciated - we are always trying to improve our service.</p>
-                    <form>
-                        <div className="form-group row">
-                            <label for="fullName" className="col-md-2 col-form-label"><strong>Full Name</strong></label>
-                            <div className="col">
-                                <input type="text" className="form-control" id="fullName" name="fullName" placeholder="Full Name" />
-                            </div>
-                        </div>
-                        <div className="form-group row">
-                            <label for="phoneNumber" className="col-md-2 col-form-label"><strong>Phone Number</strong></label>
-                            <div className="col">
-                                <input type="tel" className="form-control" id="phoneNumber" name="phoneNumber" placeholder="Phone Number" />
-                            </div>
-                            <label for="email" className="col-md-1 col-form-label"><strong>Email</strong></label>
-                            <div className="col">
-                                <input type="email" className="form-control" id="email" name="email" placeholder="E-mail" />
-                            </div>
-                        </div>
-                        <div className="form-group row">
-                            <label for="feedback" className="col-md-2 col-form-label"><strong>Your Feedback</strong></label>
-                            <div className="col-md-10">
-                                <textarea className="form-control" id="feedback" name="feedback" rows="4" placeholder="Comments Here Please"></textarea>
-                            </div>
-                        </div>
-                        <div className="form-group row">
-                            <div className="offset-md-2 col-md-10">
-                                <button type="submit" className="btn btn-info">Send Feedback</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
+            <ContactForm />
         <br />
         </div>
     );
