@@ -14,12 +14,9 @@ hr {
 .imgBorder {
   border-bottom: 2px solid #000000;}
 
-.accordionHeader {
-  background-color: #8afaa28e;}
-
 h1{
-  font-size: 70px;
-}
+  font-size: 70px; }
+
 h1, h2, h3 {
   font-family: "Lobster", cursive; }
 
@@ -58,5 +55,33 @@ header h2 {
 #map {
   border: solid #82e7df;
 }
-  
 
+.accordionB {
+  border: solid #82e7df;
+  background: white;}
+
+.panel-header-main {
+  background: #82e7df;}
+
+.panel-wrap.active-panel .panel-header {
+  background: #8afaa28e;}
+
+.panel-header button {
+  border: none;
+  background: transparent;}
+
+.panel-header {
+  margin-top: 1px;
+  border-bottom: solid #82e7df;}
+
+.panel-header button:focus {
+  outline: 0px auto -webkit-focus-ring-color;}
+
+.p-body {
+  background: white;
+  border-bottom: solid #82e7df;}
+
+.panel-body {
+  background: #ffffff;
+  border-bottom: solid #82e7df;
+  color: #000000;}

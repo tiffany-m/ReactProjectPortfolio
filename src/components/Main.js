@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Header from './HeaderComponent';
-import Footer from './FooterComponent';
-import Home from './HomeComponent';
-import About from './AboutUsComponent';
-import Contact from './ContactUsComponent';
-import Menu from './MenuComponent';
-import Order from './OrderComponent';
+import Header from './Header';
+import Footer from './Footer';
+import Home from './Home';
+import About from './About';
+import Menu from './Menu';
+import Order from './Order';
+import Contact from './ContactUs';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 class Main extends Component {

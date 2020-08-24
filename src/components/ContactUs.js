@@ -1,5 +1,5 @@
 import React from 'react';
-import ContactForm from './ContactFormComponent';
+import ContactForm from './subComponents/ContactForm';
 import Iframe from 'react-iframe';
 
 function Contact(props) {
@@ -42,10 +42,10 @@ function Contact(props) {
                     <h2 className="text-center pt-3">Directions</h2><hr />
                 </div>
             </div>
-            <div className="row row-content d-flex justify-content-center border-top-0 boxStyle">
+            <div className="row d-flex justify-content-center border-top-0 boxStyle pb-3">
                 <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12231.083241592713!2d-75.36253930909427!3d39.968876615788254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6ea63b26c5429%3A0xb2ea7a5c8d00aa83!2sBroomall%2C%20PA%2019008!5e0!3m2!1sen!2sus!4v1594585163259!5m2!1sen!2sus"
-                    width="1070px"
-                    height="300px"
+                    width="1000px"
+                    height="250px"
                     id="map"
                     display="initial"
                     position="relative" />
