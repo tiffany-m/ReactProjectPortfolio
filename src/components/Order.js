@@ -31,7 +31,7 @@ function Order(props) {
                         <br />2 months advance is recommended but it's never too soon to order!  During holiday and wedding season we are busier and book up quickly.  <strong>Holidays: Nov - Dec | Wedding/Graduation Season: April - June</strong>
                     </p>
                     <p><strong>How much do custom cakes cost?</strong>
-                        <br />Final price is based off design and size.  If you would like to order a cake that is already on our website/social media pages we can give you an estimate just <a href="tel:+8675309">call</a>.  Please see our <a href="#accordion">Example Cakes</a> for an idea of prices.
+                        <br />Final price is based off design and size.  If you would like to order a cake that is already on our website/social media pages we can give you an estimate just <a href="tel:+8675309">call</a>.  Please see our Example Cake Prices below for an idea of prices.
                     </p>
                     <p><strong>Can I have my cake delivered?</strong>
                         <br />Yes!  Price of delivery depends on day, time and location.  You can <a href="tel:+8675309">call</a> or talk about prices at consultation.  We <strong>DO NOT</strong> ship or deliver over a 10mile distance from the bakery.

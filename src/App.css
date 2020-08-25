@@ -53,8 +53,7 @@ header h2 {
   border-width: thin;}
 
 #map {
-  border: solid #82e7df;
-}
+  border: solid #82e7df;}
 
 .accordionB {
   border: solid #82e7df;
@@ -71,8 +70,8 @@ header h2 {
   background: transparent;}
 
 .panel-header {
-  margin-top: 1px;
-  border-bottom: solid #82e7df;}
+  padding-top: 7px;
+  border: solid #82e7df;}
 
 .panel-header button:focus {
   outline: 0px auto -webkit-focus-ring-color;}

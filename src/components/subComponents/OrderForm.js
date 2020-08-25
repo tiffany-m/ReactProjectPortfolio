@@ -38,7 +38,7 @@ function OrderForm(props) {
                                 <Input type="date" className="form-control" id="orderDate" name="orderDate" />
                             </div>
                             <Label htmlFor="fileUp" className="col-md-1 col-form-label"><strong>Reference Images</strong></Label>
-                            <div className="col-1 offset-1">
+                            <div className="col offset-1">
                                 <Input src="#" type="file" id="fileUp" name="fileUp" />
                                 <img id="preview" width="250" />
                             </div>

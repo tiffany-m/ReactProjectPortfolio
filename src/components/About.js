@@ -35,7 +35,7 @@ function AboutUs(props) {
                     </p>
                 </div>
                 <div className="col-sm-3">
-                    <img className="img-thumbnail" src="/assets/images/aboutOwner1.jpg" width="240" alt="Mini Easter Basket" />
+                    <img className="img-thumbmail" src="/assets/images/aboutOwner1.jpg" width="240" alt="Mini Easter Basket" />
                 </div>
             </div>
             <br />

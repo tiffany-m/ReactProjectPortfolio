@@ -58,15 +58,15 @@ function AccordionPrices() {
                         </Accordion.Toggle>
                     </div>
                     <Accordion.Collapse eventKey="2">
-                    <div class="row p-body">
+                    <div className="row p-body">
                         <div className="col-sm-4 align-self-center">
                             <p>This cake's decorations are mostly made with icing and some simple fondant decorations.</p>
                         </div>
                         <div className="col-sm-4 mb-2 m-sm-auto">
-                            <img class="img-thumbnail my-2" src="/assets/images/201.jpg" width="350" alt="Autumn" />
+                            <img className="img-thumbnail my-2" src="/assets/images/201.jpg" width="350" alt="Autumn" />
                         </div>
                         <div className="col-sm-4">
-                            <img class="img-thumbnail my-2" src="/assets/images/202.jpg" width="350" alt="Closeup Autumn" />
+                            <img className="img-thumbnail my-2" src="/assets/images/202.jpg" width="350" alt="Closeup Autumn" />
                         </div>
                     </div>
                     </Accordion.Collapse>
@@ -86,7 +86,7 @@ function AccordionPrices() {
                         <div className="col-sm-4 mb-2 m-sm-auto">
                             <img className="img-thumbnail my-2" src="/assets/images/301.jpg" width="350" alt="Fairy Door Stump" />
                         </div>
-                        <div class="col-sm-4">
+                        <div className="col-sm-4">
                             <img className="img-thumbnail my-2" src="/assets/images/302.jpg" width="350" alt="Frame Based" />
                         </div>
                     </div>
@@ -108,7 +108,7 @@ function AccordionPrices() {
                             <img className="img-thumbnail my-2" src="/assets/images/401.jpg" width="250" alt="RWBY Ruby" />
                         </div>
                         <div className="col-sm-4">
-                            <img class="img-thumbnail my-2" src="/assets/images/402.jpg" width="350" alt="Ruby Closeup" />
+                            <img className="img-thumbnail my-2" src="/assets/images/402.jpg" width="350" alt="Ruby Closeup" />
                         </div>
                     </div>
                     </Accordion.Collapse>

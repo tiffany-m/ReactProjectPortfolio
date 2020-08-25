@@ -7,9 +7,9 @@ function Home(props) {
     return (
         <div className="container">
     <br />
-            <div className="row COVID-row-content align-items-center boxStyle">
-                <div className="col-sm-2">
-                    <img className="img-thumbnail" src="/assets/images/COVID.jpg" width="175" alt="COVID Responce" />
+            <div className="row COVID-row-content row-content align-items-center boxStyle">
+                <div className="col-sm-3">
+                    <img className="img-thumbnail" src="/assets/images/COVID.jpg" width="250" alt="COVID Responce" />
                 </div>
                 <div className="col-sm">
                     <h5><strong>COVID - Following State Guidelines</strong></h5>
@@ -36,7 +36,7 @@ function Home(props) {
             </div>
     <br />
             <div className="row row-content boxStyle">
-                <div className="col-sm-6 mb-3 m-sm-autool">
+                <div className="col-sm-6 mb-3 m-sm-auto">
                     <CarouselDaily />
                 </div>
                     <br />
